@@ -3,9 +3,46 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CapaBase", "CapaBase", "{BED4B78F-F003-4193-9CC3-E3E803C59FA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppMovil", "AppMovil", "{76A5886B-D8E5-4F59-97F5-9D470B0F0213}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{084B29F5-BC00-4D39-8C50-647FC5AA919F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Escritorio", "Escritorio", "{B1CC4C42-8368-4AC5-9FEA-CF4C31D4FB8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeApp.COMMON", "CoffeApp.COMMON\CoffeApp.COMMON.csproj", "{527D59CA-C905-490E-B3B8-39D34F1B06CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeApp.DAL.MsSQL", "CoffeApp.DAL\CoffeApp.DAL.MsSQL.csproj", "{50446C95-F3CF-49B9-8922-6A4DB14B78DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeApp.BIZ", "CoffeApp.BIZ\CoffeApp.BIZ.csproj", "{0FE533F4-7921-4643-9617-3972EA91E42C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{527D59CA-C905-490E-B3B8-39D34F1B06CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527D59CA-C905-490E-B3B8-39D34F1B06CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{527D59CA-C905-490E-B3B8-39D34F1B06CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{527D59CA-C905-490E-B3B8-39D34F1B06CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50446C95-F3CF-49B9-8922-6A4DB14B78DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50446C95-F3CF-49B9-8922-6A4DB14B78DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50446C95-F3CF-49B9-8922-6A4DB14B78DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50446C95-F3CF-49B9-8922-6A4DB14B78DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FE533F4-7921-4643-9617-3972EA91E42C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE533F4-7921-4643-9617-3972EA91E42C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE533F4-7921-4643-9617-3972EA91E42C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE533F4-7921-4643-9617-3972EA91E42C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{527D59CA-C905-490E-B3B8-39D34F1B06CE} = {BED4B78F-F003-4193-9CC3-E3E803C59FA0}
+		{50446C95-F3CF-49B9-8922-6A4DB14B78DB} = {BED4B78F-F003-4193-9CC3-E3E803C59FA0}
+		{0FE533F4-7921-4643-9617-3972EA91E42C} = {BED4B78F-F003-4193-9CC3-E3E803C59FA0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3758835F-F5AE-4A2D-A7F1-7D4411E62805}
