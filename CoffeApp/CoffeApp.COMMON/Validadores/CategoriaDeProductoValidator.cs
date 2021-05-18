@@ -12,7 +12,6 @@ namespace CoffeApp.COMMON.Validadores
         {
             RuleFor(c => c.Descripcion).NotEmpty().NotNull().WithMessage("La descripcion no puede estar vacia").MaximumLength(200);
             RuleFor(c => c.Nombre).NotEmpty().NotNull().MaximumLength(50).WithMessage("El nombre no puede estar vacio");
-
         }
     }
 }

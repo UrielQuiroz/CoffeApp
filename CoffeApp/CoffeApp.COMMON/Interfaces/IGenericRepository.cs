@@ -51,5 +51,13 @@ namespace CoffeApp.COMMON.Interfaces
         /// <returns>Conjunto de entidad que coinciden con la consulta</returns>
         IEnumerable<T> Query(string querySql);
 
+
+        /// <summary>
+        /// Buscar una entidad por su Id
+        /// </summary>
+        /// <param name="Id">Id de la entidad a buscar</param>
+        /// <returns>Entidad que conincide con el Id</returns>
+        T SearchById(string Id);
+
     }
 }
